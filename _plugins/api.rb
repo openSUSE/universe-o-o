@@ -25,8 +25,9 @@ class SitesApi < Jekyll::Page
 
   def assign_names(arr)
     arr.each_with_object([]) do |item, result|
-      item['name'] = localized(item['id'])
+      item['title'] = localized(item['id'])
       url = "#{item['id']}_url"
+      item['icon'] = File.read("_includes/#{item['icon']}") if item.key?('icon')
       item['url'] = localized(url) if localized(url)
       item['links'] = assign_names(item['links']) if item.key?('links')
       result << item
