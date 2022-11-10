@@ -1,51 +1,70 @@
-lang: en
-title: openSUSE Template
-title_short: Template
-description: Template for openSUSE Websites
+title: openSUSE Universe
+title_short: Universe
+description: Find out the websites within the openSUSE infrastructure
 email: admin@opensuse.org
-copyright: '© 2021 openSUSE contributors'
-baseurl: ""
-url: "https://template.opensuse.org"
-github_url: "https://github.com/openSUSE/jekyll-template"
+copyright: '© 2022 openSUSE contributors'
+url: "https://universe.opensuse.org"
+github_url: "https://github.com/openSUSE/universe-o-o"
+
+plugins:
+  - jekyll-locale
 
 navbar_links:
-  -
-    link: https://www.opensuse.org/
-    text: Absolute Link 1
-  -
-    link: /about/
-    text: Relative Link 2
+  - locales
 
 footer_links:
   -
-    text: Source Code
-    link: https://github.com/openSUSE/jekyll-template
+    text: source_code
+    link: https://github.com/openSUSE/universe-o-o
   -
-    text: License
-    link: https://github.com/openSUSE/jekyll-template/blob/master/COPYING
+    text: license
+    link: https://github.com/openSUSE/universe-o-o/blob/master/COPYING
 
-# Only edit below if you know what you are doing!
+localization:
+  mode       : auto
+  locale     : en
+  locales_set:
+    ca:
+      name: Català
+    cs:
+      name: Čeština
+    da:
+      name: Dansk
+    de:
+      name: Deutsch
+    en:
+      name: English
+    es:
+      name: Español
+    et:
+      name: Eesti
+    fa:
+      name: فارسی
+    fi:
+      name: Suomi
+    hi:
+      name: हिन्दी
+    it:
+      name: Italiano
+    ja:
+      name: 日本語
+    mk:
+      name: македонски
+    pl:
+      name: Polski
+    pt_BR:
+      name: Português
+    pt_PT:
+      name: Português europeu
+    ru:
+      name: Русский
+    sv:
+      name: Svenska
+    zh_CN:
+      name: 简体中文
+    zh_TW:
+      name: 繁體中文
 
-defaults:
-  -
-    scope:
-      path: "*.html"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "*.md"
-    values:
-      layout: "markdown"
-  -
-    scope:
-      path: "*.markdown"
-    values:
-      layout: "markdown"
-
-disable_search: true
-
-remote_theme: openSUSE/jekyll-theme
-markdown: kramdown
+theme: jekyll-theme-openSUSE
 
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]

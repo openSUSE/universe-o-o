@@ -1,0 +1,47 @@
+site_title: openSUSE Universe
+site_title_short: Universe
+site_description: Find out the websites within the openSUSE infrastructure
+site_copyright: © 2022 openSUSE contributors
+translate: Translate
+source_code: Source Code
+license: License
+main: Main
+main_site: Main site
+software: Software
+wiki: Wiki
+wiki_url: https://en.opensuse.org
+documentation: Documentation
+forums: Forums
+forums_url: https://forums.opensuse.org/forumdisplay.php/842-English
+development: Development
+build_service: Build Service
+bugzilla: Bugzilla
+github: GitHub
+openqa: openQA
+weblate: Weblate
+kernel: Kernel
+information: Information
+news: News
+events: Events
+planet: Planet
+shop: Shop
+status: Status
+survey: Survey
+search: Search
+community: Community
+irc_channels: IRC Channels
+mailing_lists: Mailing Lists
+facebook_group: Facebook Group
+telegram_group: Telegram Group
+telegram_group_url: https://t.me/opensuseusers
+reddit: Reddit
+social_media: Social Media
+mastodon: Mastodon
+telegram: Telegram
+facebook: Facebook
+twitter: Twitter
+youtube: YouTube
+other: Other
+microos: MicroOS
+unofficial_guide: Unofficial Guide
+mirrors: Mirrors

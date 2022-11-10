@@ -1,0 +1,8 @@
+---
+permalink: api/v0/sites.json
+---
+{
+{%- for localization in site.localization.locales_set %}
+  "{{ localization[0] }}": "{{ localization[0] | prepend: 'api/v0/' | append: '/sites.json' | absolute_url }}"{% if forloop.last != true %},{% endif %}
+{%- endfor %}
+}
