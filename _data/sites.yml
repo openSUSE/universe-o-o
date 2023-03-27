@@ -58,6 +58,10 @@
     icon: events.svg
     url: https://events.opensuse.org/
 
+  - id: Logo/Trademark
+    icon: openSUSE.svg
+    url: https://en.opensuse.org/openSUSE:Artwork_brand
+
   - id: planet
     icon: planet.svg
     url: https://planet.opensuse.org/
@@ -69,10 +73,6 @@
   - id: status
     icon: status.svg
     url: https://status.opensuse.org/
-
-  - id: survey
-    icon: survey.svg
-    url: https://survey.opensuse.org/
 
 
 - id: community
