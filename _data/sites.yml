@@ -16,6 +16,10 @@
     icon: doc.svg
     url: https://doc.opensuse.org/
 
+  - id: manpages
+    icon: doc.svg
+    url: https://manpages.opensuse.org/
+
   - id: forums
     icon: forums.svg
     url: https://forums.opensuse.org/
