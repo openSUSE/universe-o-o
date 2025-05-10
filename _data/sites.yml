@@ -112,8 +112,8 @@
     icon: facebook.svg
     url: https://www.facebook.com/en.openSUSE
 
-  - id: twitter
-    icon: twitter.svg
+  - id: x
+    icon: x.svg
     url: https://twitter.com/opensuse
 
   - id: youtube
