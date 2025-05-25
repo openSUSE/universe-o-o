@@ -59,7 +59,7 @@
     url: https://events.opensuse.org/
 
   - id: artwork
-    icon: openSUSE.svg
+    icon: geeko.svg
     url: https://en.opensuse.org/openSUSE:Artwork_brand
 
   - id: planet
@@ -77,6 +77,10 @@
 
 - id: community
   links:
+  - id: code_of_conduct
+    icon: contract.svg
+    url: https://en.opensuse.org/Code_of_Conduct
+
   - id: irc_channels
     icon: irc.svg
     url: https://en.opensuse.org/openSUSE:IRC_list
