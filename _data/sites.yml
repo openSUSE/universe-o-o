@@ -95,7 +95,7 @@
 
   - id: telegram_group
     icon: telegram.svg
-    url: https://t.me/opensuseusers
+    url: https://t.me/opensuse
 
   - id: reddit
     icon: reddit.svg
