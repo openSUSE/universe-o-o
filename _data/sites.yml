@@ -42,10 +42,14 @@
   - id: weblate
     icon: weblate.svg
     url: https://l10n.opensuse.org/
-
+    
   - id: kernel
     icon: code.svg
     url: https://kernel.opensuse.org/
+    
+  - id: uyuni
+    icon: uyuni.svg
+    url: https://www.uyuni-project.org/
 
 
 - id: information

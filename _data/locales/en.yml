@@ -20,6 +20,7 @@ github: GitHub
 openqa: openQA
 weblate: Weblate
 kernel: Kernel
+uyuni: Uyuni
 information: Information
 news: News
 events: Events
