@@ -120,6 +120,10 @@
     icon: facebook.svg
     url: https://www.facebook.com/en.openSUSE
 
+  - id: bluesky
+    icon: bluesky.svg
+    url: https://bsky.app/profile/opensuse.org
+    
   - id: x
     icon: x.svg
     url: https://x.com/opensuse
