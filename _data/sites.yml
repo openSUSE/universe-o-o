@@ -105,6 +105,9 @@
     icon: reddit.svg
     url: https://reddit.com/r/openSUSE
 
+  - id: kudos
+    icon: kudos.svg
+    url: https://kudos.opensuse.org/
 
 - id: social_media
   links:
